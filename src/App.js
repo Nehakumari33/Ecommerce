@@ -20,7 +20,7 @@ function App() {
         <Route path="/details" component={Details} />
         <Route path="/Cart" component={Cart} />
 
-        <Route component={Default} />
+        <Route path="/" component={Default} />
       </Switch>
 
       <Modal />
