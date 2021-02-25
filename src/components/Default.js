@@ -12,6 +12,7 @@ export default class Default extends Component {
                         <h3>the request URL <span className="text-danger">
                             {this.props.location.pathname}</span>{" "}
         was  not found</h3>
+            <h3>This  is default page please click on PRODUCTS to view website</h3>
                     </div>
                 </div>
 
